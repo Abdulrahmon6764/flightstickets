@@ -1,0 +1,11 @@
+const express = require('express')
+const app = express()
+const adminroutes = require('./routes/admin')
+const path = require('path')
+app.set('view engine','ejs')
+app.use(express.static(path.join(__dirname,'public')))
+const bodyParser = require('body-parser')
+app.use(bodyParser.urlencoded ({extended:true}))
+
+app.use(adminroutes)
+app.listen(4000)

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Update Tickets</h1>
+    <form action="/update-ticket" method="post">
+        <input type="hidden" name="Id" value="<%= Product[0].id %>" >
+        <div>
+        <label for="">From:</label><br>
+        <input type="text" name="Froms" value="<%= Product[0].froms %>">    
+        </div>    
+        <div>
+        <label for="">To:</label><br>
+        <input type="text" name="Tos" value="<%= Product[0].tos %>">    
+        </div>    
+        <div>
+        <label for="">Amount:</label><br>
+        <input type="text" name="Amount" value="<%= Product[0].amount %>">    
+        </div>   
+        <div>
+            <label for="">Image:</label><br>
+            <input type="text" name="Image" value="<%= Product[0].image %>">    
+            </div>  
+        <div>
+        <label for="">Date:</label><br>
+        <input type="text" name="Date" value="<%= Product[0].date %>">    
+        </div>  <br>
+        <button type="submit">Add</button>     
+        </form>
+           
+
+
+</body>
+</html>

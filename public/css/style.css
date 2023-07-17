@@ -1,0 +1,59 @@
+*{
+    padding: none;
+    margin: none;
+    box-sizing: border-box;
+}
+.backvideo{
+    background-image: url('https://cdn.pixabay.com/photo/2017/04/25/22/28/despaired-2261021_640.jpg');
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.forms form{
+   text-align: center;
+    
+}
+form div{
+    margin-top: 20px;
+}
+.bacimage{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/diapyzzws/image/upload/v1685620028/images/shutterstock_186964970.jpg');
+}
+.flex-container{
+    display: flex;
+    justify-content:space-between;
+    /* padding-top: 30px; */
+    background-color: whitesmoke;
+    align-items: center;
+    height: 100px;
+    margin-top: 50px;
+  
+}
+.spans span{
+    /* color: darkgreen; */
+    /* padding: 50px; */
+    font-size: 26px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+ .image img{
+position: absolute;
+bottom: 0px;
+top: 1000px;
+z-index: -1;
+border-radius:5px ;
+}
+/* .image{
+  position: relative;
+} */
+
+
+
+
+
